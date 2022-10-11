@@ -1,9 +1,19 @@
 .container {
     height: 300px;
     width: 400px;
-}
+    background-color:blue;
+    border-radius: 30px;/*Adicionando a curva aos cantos*/
+    overflow: auto;/*Determina o que acontece com conteudo ou elemento grande demais para caber em uma área*/
+    display: flex; /*Determina como o elemento será apresentado*/
+    flex-direction: column-reverse; /*Inverte a contagem nas divs*/
+    justify-content: space-between;
+    }
 
 .elemento {
-    width: 100px;
-    height: 50px;
+    /*width: 100px;*/
+    /*height: 50px;*/
+    margin-left: 75%;/*Lançando elementos a direita*/
+    padding: 15px 0px 15px 30px; /*top / r / bottom / l - Texto DIV*/ 
+    background-color:red;
+    font-style: bold;
 }
